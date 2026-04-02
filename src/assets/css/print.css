@@ -1,0 +1,38 @@
+/* Estilos específicos para impresión */
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: serif;
+}
+
+/* Ocultar elementos no necesarios */
+header,
+nav,
+footer,
+button {
+    display: none;
+}
+
+/* Ajustar contenido principal */
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Imágenes adaptadas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Evitar cortes feos */
+section {
+    page-break-inside: avoid;
+}
+
+/* Títulos más claros */
+h1, h2, h3 {
+    color: #000;
+}

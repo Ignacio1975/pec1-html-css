@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sabores del Mediterráneo | Categoría</title>
+        <meta
+            name="description"
+            content="Listado de platos y especialidades de la gastronomía valenciana y mediterránea."
+        >
+        <link rel="stylesheet" href="../assets/css/estilos.css">
+        <link rel="stylesheet" href="../assets/css/print.css" media="print">
+    </head>
+    <body>
+        <a class="saltar-navegacion" href="#contenido-principal">Saltar al contenido principal</a>
+
+        <header class="cabecera">
+            <div class="contenedor cabecera__interior">
+                <a class="logo" href="../index.html">Sabores del Mediterráneo</a>
+
+                <nav class="navegacion-principal" aria-label="Navegación principal">
+                    <ul class="navegacion-principal__lista">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./index.html" aria-current="page">Categoría</a></li>
+                        <li><a href="../det1/index.html">Paella valenciana</a></li>
+                        <li><a href="../det2/index.html">All i pebre</a></li>
+                        <li><a href="../links/index.html">Enlaces</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="contenido-principal">
+            <section class="seccion">
+                <div class="contenedor">
+                    <div class="seccion__encabezado" data-aos="fade-up">
+                        <h1>Platos y especialidades</h1>
+                        <p>
+                          Esta selección reúne algunas elaboraciones representativas de la cocina
+                          valenciana y mediterránea, desde arroces icónicos hasta entrantes y
+                          guisos de larga tradición.
+                        </p>
+                    </div>
+
+                    <div class="filtros" aria-label="Filtros de categoría">
+                        <button type="button" class="activo" data-filtro="todos" aria-pressed="true">
+                            Todos
+                        </button>
+                        <button type="button" data-filtro="arroces" aria-pressed="false">
+                            Arroces
+                        </button>
+                        <button type="button" data-filtro="entrantes" aria-pressed="false">
+                            Entrantes
+                        </button>
+                        <button type="button" data-filtro="guisos" aria-pressed="false">
+                            Guisos
+                        </button>
+                    </div>
+
+                    <div class="rejilla rejilla--3">
+                        <article class="tarjeta" data-tipo="arroces" data-aos="fade-up">
+                            <img src="../assets/img/categoria/cat-paella.jpg" alt="Paella valenciana tradicional">
+                            <div class="tarjeta__cuerpo">
+                                <h2 class="tarjeta__titulo">Paella valenciana</h2>
+                                <p>
+                                    El arroz valenciano más emblemático, ligado a una elaboración precisa
+                                    y a unos ingredientes muy concretos.
+                                </p>
+                                <a class="boton" href="../det1/index.html">Ver detalle de la paella valenciana</a>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta" data-tipo="guisos" data-aos="fade-up" data-aos-delay="50">
+                            <img src="../assets/img/categoria/cat-allipebre.jpg" alt="Plato tradicional de all i pebre">
+                            <div class="tarjeta__cuerpo">
+                                <h2 class="tarjeta__titulo">All i pebre</h2>
+                                <p>
+                                    Un guiso tradicional de fuerte identidad local, asociado al entorno
+                                    de la Albufera y a la cocina popular.
+                                </p>
+                                <a class="boton" href="../det2/index.html">Ver detalle del all i pebre</a>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta" data-tipo="entrantes" data-aos="fade-up" data-aos-delay="100">
+                            <img src="../assets/img/categoria/cat-esgarraet.jpg" alt="Esgarraet con pimiento asado y bacalao">
+                            <div class="tarjeta__cuerpo">
+                                <h2 class="tarjeta__titulo">Esgarraet</h2>
+                                <p>
+                                    Una combinación sencilla y sabrosa de pimiento asado, bacalao y
+                                    aceite, muy presente en la mesa valenciana.
+                                </p>
+                                <a class="boton" href="../links/index.html">Consultar fuentes y referencias</a>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta" data-tipo="entrantes" data-aos="fade-up" data-aos-delay="150">
+                            <img src="../assets/img/categoria/cat-titaina.jpg" alt="Titaina servida sobre pan">
+                            <div class="tarjeta__cuerpo">
+                                <h2 class="tarjeta__titulo">Titaina</h2>
+                                <p>
+                                    Una receta tradicional del ámbito marinero valenciano, con un perfil
+                                    muy reconocible y una fuerte raíz popular.
+                                </p>
+                                <a class="boton" href="../links/index.html">Consultar fuentes y referencias</a>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta" data-tipo="arroces" data-aos="fade-up" data-aos-delay="200">
+                            <img src="../assets/img/categoria/cat-fideua.jpg" alt="Fideuà marinera con marisco">
+                            <div class="tarjeta__cuerpo">
+                                <h2 class="tarjeta__titulo">Fideuà</h2>
+                                <p>
+                                    Aunque elaborada con fideo en vez de arroz, comparte con otros platos
+                                    mediterráneos la centralidad del sofrito y del caldo.
+                                </p>
+                                <a class="boton" href="../links/index.html">Consultar fuentes y referencias</a>
+                            </div>
+                        </article>
+
+                        <article class="tarjeta" data-tipo="arroces" data-aos="fade-up" data-aos-delay="250">
+                            <img src="../assets/img/categoria/cat-arrozhorno.jpg" alt="Arroz al horno con embutido y tomate">
+                            <div class="tarjeta__cuerpo">
+                                <h2 class="tarjeta__titulo">Arroz al horno</h2>
+                                <p>
+                                    Una preparación contundente y doméstica, muy vinculada a la cocina de
+                                    aprovechamiento y al recetario tradicional.
+                                </p>
+                                <a class="boton" href="../links/index.html">Consultar fuentes y referencias</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="pie">
+            <div class="contenedor">
+                <p class="pie__texto">
+                    PEC1 · Herramientas HTML y CSS · Proyecto sobre gastronomía mediterránea.
+                </p>
+
+                <nav class="pie__nav" aria-label="Navegación secundaria">
+                    <ul class="pie__lista">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../categoria/index.html">Categoría</a></li>
+                        <li><a href="../links/index.html">Fuentes y atribuciones</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+        <script type="module" src="../assets/js/app.js"></script>
+    </body>
+</html>
