@@ -1,3 +1,13 @@
-node_modules
-.parcel-cache
-dist
+node_modules/
+.parcel-cache/
+dist/
+
+# Archivos temporales
+*.tmp
+~$*
+
+# Archivos comprimidos
+*.zip
+
+*.pdf
+*.docx
