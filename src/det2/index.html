@@ -42,10 +42,29 @@
                     </header>
 
                     <figure data-aos="fade-up">
-                        <img
-                            src="../assets/img/det2/det2-hero.jpg"
-                            alt="Plato tradicional de all i pebre con anguila y patata"
-                        >
+                        <picture>
+                            <!-- móvil -->
+                            <source 
+                                media="(max-width: 768px)" 
+                                srcset="../assets/img/det2/det2-hero-mobile.jpg"
+                            >
+
+                            <!-- formatos modernos -->
+                            <source 
+                                srcset="../assets/img/det2/det2-hero.jpg?as=avif" 
+                                type="image/avif"
+                            >
+                            <source 
+                                srcset="../assets/img/det2/det2-hero.jpg?as=webp" 
+                                type="image/webp"
+                            >
+
+                            <!-- fallback -->
+                            <img
+                                src="../assets/img/det2/det2-hero.jpg"
+                                alt="Plato tradicional de all i pebre con anguila y patata"
+                            >
+                        </picture>
                         <figcaption>
                             Guiso tradicional de all i pebre servido en cazuela de barro.
                         </figcaption>

@@ -42,10 +42,27 @@
                     </header>
 
                     <figure data-aos="fade-up">
-                        <img
-                            src="../assets/img/det1/det1-hero.jpg"
-                            alt="Paella valenciana tradicional con pollo, conejo y verduras"
-                        >
+                        <picture>
+                            <!-- móvil -->
+                            <source 
+                                media="(max-width: 768px)" 
+                                srcset="../assets/img/det1/det1-hero-mobile.jpg"
+                            >
+                            <!-- formatos modernos -->
+                            <source 
+                                srcset="../assets/img/det1/det1-hero.jpg?as=avif" 
+                                type="image/avif"
+                            >
+                            <source 
+                                srcset="../assets/img/det1/det1-hero.jpg?as=webp" 
+                                type="image/webp"
+                            >
+                            <!-- fallback -->
+                            <img
+                                src="../assets/img/det1/det1-hero.jpg"
+                                alt="Paella valenciana tradicional con pollo, conejo y verduras"
+                            >
+                        </picture>
                         <figcaption>
                             Ejemplo de paella valenciana elaborada con ingredientes tradicionales.
                         </figcaption>
