@@ -69,7 +69,13 @@
                             <source srcset="./assets/img/portada/portada-cocina.jpg?as=avif" type="image/avif">
                             <source srcset="./assets/img/portada/portada-cocina.jpg?as=webp" type="image/webp">
                             <img
-                                src="./assets/img/portada/portada-cocina.jpg"
+                                src="./assets/img/portada/portada-cocina.jpg?width=800"
+                                srcset="
+                                ./assets/img/portada/portada-cocina.jpg?width=400 400w,
+                                ./assets/img/portada/portada-cocina.jpg?width=800 800w,
+                                ./assets/img/portada/portada-cocina.jpg?width=1200 1200w
+                                "
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 alt="Mesa o escena gastronómica de cocina mediterránea"
                             >
                         </picture>
@@ -128,7 +134,16 @@
                             <picture>
                                 <source srcset="./assets/img/categoria/cat-paella.jpg?as=avif" type="image/avif">
                                 <source srcset="./assets/img/categoria/cat-paella.jpg?as=webp" type="image/webp">
-                                <img src="./assets/img/categoria/cat-paella.jpg" alt="Paella valenciana">
+                                <img
+                                    src="./assets/img/categoria/cat-paella.jpg?width=600"
+                                    srcset="
+                                    ./assets/img/categoria/cat-paella.jpg?width=300 300w,
+                                    ./assets/img/categoria/cat-paella.jpg?width=600 600w,
+                                    ./assets/img/categoria/cat-paella.jpg?width=900 900w
+                                    "
+                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    alt="Paella valenciana"
+                                >
                             </picture>
                             <div class="tarjeta__cuerpo">
                                 <h3 class="tarjeta__titulo">Paella valenciana</h3>
@@ -144,7 +159,16 @@
                             <picture>
                                 <source srcset="./assets/img/categoria/cat-allipebre.jpg?as=avif" type="image/avif">
                                 <source srcset="./assets/img/categoria/cat-allipebre.jpg?as=webp" type="image/webp">
-                                <img src="./assets/img/categoria/cat-allipebre.jpg" alt="Plato de all i pebre">
+                                <img
+                                    src="./assets/img/categoria/cat-allipebre.jpg?width=600"
+                                    srcset="
+                                    ./assets/img/categoria/cat-allipebre.jpg?width=300 300w,
+                                    ./assets/img/categoria/cat-allipebre.jpg?width=600 600w,
+                                    ./assets/img/categoria/cat-allipebre.jpg?width=900 900w
+                                    "
+                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    alt="Plato de all i pebre"
+                                >
                             </picture>
                             <div class="tarjeta__cuerpo">
                                 <h3 class="tarjeta__titulo">All i pebre</h3>
@@ -160,7 +184,16 @@
                             <picture>
                                 <source srcset="./assets/img/categoria/cat-fideua.jpg?as=avif" type="image/avif">
                                 <source srcset="./assets/img/categoria/cat-fideua.jpg?as=webp" type="image/webp">
-                                <img src="./assets/img/categoria/cat-fideua.jpg" alt="Fideuà marinera">
+                                <img
+                                    src="./assets/img/categoria/cat-fideua.jpg?width=600"
+                                    srcset="
+                                    ./assets/img/categoria/cat-fideua.jpg?width=300 300w,
+                                    ./assets/img/categoria/cat-fideua.jpg?width=600 600w,
+                                    ./assets/img/categoria/cat-fideua.jpg?width=900 900w
+                                    "
+                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    alt="Fideuà marinera"
+                                >
                             </picture>
                             <div class="tarjeta__cuerpo">
                                 <h3 class="tarjeta__titulo">Más especialidades</h3>
