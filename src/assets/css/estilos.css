@@ -313,7 +313,8 @@ main h3 {
 
 .hero-svg text {
   font-size: 2rem;
-  fill: #2c5e4e;
+  fill: #ffffff;
+  text-shadow: 0 6px 12px rgba(0,0,0,1);
   opacity: 0;
   transform: translateY(20px);
   animation: aparecerTexto 1.5s ease forwards;
